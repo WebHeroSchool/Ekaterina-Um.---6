@@ -33,6 +33,7 @@
   border-radius: 50px;
   font: 800 20px/24px montserrat, arial, helvetica, sans-self;
 }
+
 .main__head{
   display: flex;
   flex-direction: column;
