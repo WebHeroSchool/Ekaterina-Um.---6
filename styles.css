@@ -357,7 +357,7 @@
     margin-top: 0px;
     margin-right: 30px;
   }
-  .main__menu-item, .main__i-can_js, .main__i-can_react{
+  .main__menu-item, .main__i-can-js, .main__i-can-react{
 		display: none;
   }
   .main__button-call{
