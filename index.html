@@ -5,82 +5,83 @@
     <title>Um. Ekaterina</title>
     <link rel="stylesheet" href="fonts.css">
     <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
   </head>
   <body class="main">
-    <div>
-    <nav class="main__menu">
-      <a class="main__menu_item" href="#">Мои навыки</a>
-      <a class="main__menu_item" href="#">Оставить заявку</a>
-      <a class="main__menu_item_button" href="#">Позвонить</a>
+    <div class="main__header">
+      <nav class="main__menu">
+        <a class="main__menu-item" href="#">Мои навыки</a>
+        <a class="main__menu-item" href="#">Оставить заявку</a>
+        <a class="main__button-call" href="#">Позвонить</a>
+        <input type="checkbox" id="burg" class="hidden-menu-ticker">
+  			<label class="hidden-menu-ticker__burger" for="burg">
+  				<span></span>
+  			</label>
+      </nav>
     </div>
     <header class="main__head">
-      <p class="main__head_develop">Разработка сайтов, игр и приложений</p>
-      <p class="main__head_help">Помогаю воплощать мечты в реальность</p>
+      <p class="main__head-develop">Разработка сайтов, <span class="main__head-develop_down">игр и приложений</span></p>
+      <p class="main__head-help"><span class="main__head-help main__head-help_up">Помогаю воплощать<br /></span><span class="main__head-help main__head-help_down">мечты в реальность</span></p>
     </header>
     <main class="main__why">
-        <p class="main__why_head">Почему вам стоит обратиться ко мне</p>
-        <div class="main__why_text">
-          <div class="main__why_text_individ">
-            <img class="main__why_text_img" src="img/main_1.svg" alt="main-picture1">
-            <p class="main__why_text_head">Индивидуальный подход</p>
-            <p class="main__why_text_desc">Каждый клиент для меня особенный. Я тщательно изучаю что ему необходимо, прежде, чем приступить к работе.</p>
+        <p class="main__why-head">Почему вам стоит обратиться ко мне</p>
+        <div class="main__why-text">
+          <div class="main__why-text-individ">
+            <p class="main__why-text-head">Индивидуальный<br />подход</p>
+            <p class="main__why-text-individ-desc">Каждый клиент<br />для меня особенный.<br />Я тщательно изучаю<br />что ему необходимо, прежде,<br /><span class="main__why-text-individ-desc main__why-text-individ-desc_down">чем приступить к работе.</span></p>
           </div>
-          <div class="main__why_text_money">
-            <img class="main__why_text_img" src="img/main_2.svg" alt="main-picture1">
-            <p class="main__why_text_head">Разумные цены</p>
-            <p class="main__why_text_desc">Я предлагаю выгодные цены за безупречное выполнение работы и соблюдение сроков.</p>
+          <div class="main__why-text-money">
+            <p class="main__why-text-head main__why-text-head-money">Разумные<br /><span class="main__why-text-head-money main__why-text-head-money_down">цены</span></p>
+            <p class="main__why-text-money-desc">Я предлагаю выгодные цены<br />за безупречное выполнение<br />работы и соблюдение сроков.</p>
           </div>
-          <div class="main__why_text_result">
-            <img class="main__why_text_img" src="img/main_3.svg" alt="main-picture1">
-            <p class="main__why_text_head">Отличный результат!</p>
-            <p class="main__why_text_desc">Я внимательно работаю над каждым проектом. Я очень люблю свою работу, поэтому вас обрадует результат проделанной работы.</p>
+          <div class="main__why-text-result">
+            <p class="main__why-text-head main__why-text-head-result">Отличный<br />результат!</p>
+            <p class="main__why-text-result-desc"><span class="main__why-text-result-desc_up">Я внимательно </span>работаю над&nbsp;каждым проектом. Я&nbsp;очень&nbsp;люблю свою работу, поэтому вас&nbsp;обрадует результат <span class="main__why-text-result-desc_down">проделанной работы.</span></p>
           </div>
         </div>
-        <a class="main__why_cons" href="#">Получить консультацию</a>
+        <a class="main__button-cons" href="#">Получить консультацию</a>
     </main>
     <article class="main__i-can">
-      <p class="main__i-can_head">Что я могу</p>
-      <div class="main__i-can_write">
-        <div class="main__i-can_write_img"></div>
-        <div class="main__i-can_text">
-          <p class="main__i-can_write_desc">Я умею писать валидный и&nbsp;семмантически верный код для&nbsp;вашего сайта или приложения</p>
-          <p class="main__i-can_write_add">Ваш сайт и приложение будут верно&nbsp;работать,&nbsp;благодаря моей верстке</p>
+      <p class="main__i-can-head">Что я могу</p>
+      <div class="main__i-can-text">
+        <div class="main__i-can-write">
+            <p class="main__i-can-write-desc">Я умею писать валидный и&nbsp;семмантически верный код для&nbsp;вашего сайта или&nbsp;приложения</p>
+            <p class="main__i-can-write-add">Ваш сайт и приложение будут верно&nbsp;работать, благодаря моей верстке</p>
+        </div>
+        <div class="main__i-can-js">
+          <p class="main__i-can-js-desc"><span class="main__i-can-js-desc main__i-can-js-desc_up">Я умею создавать игры</span><br />и анимации с помощью JavaScript</p>
+          <p class="main__i-can-js-add">Я свободно владею языком JavaScript<br />и могу “оживить” ваш сайт и приложение</p>
+        </div>
+        <div class="main__i-can-react">
+          <p class="main__i-can-react-desc">Я умею создавать приложения<br />с помощью React</p>
+          <p class="main__i-can-react-add">Благодаря моим навыкам, ваш сайт<br />и приложение будут максимально<br />удобными в использовании</p>
         </div>
       </div>
-      <div class="main__i-can_js">
-        <div class="main__i-can_text">
-          <p class="main__i-can_js_desc">Я умею создавать игры и&nbsp;анимации с помощью JavaScript</p>
-          <p class="main__i-can_js_add">Я свободно владею языком JavaScript и&nbsp;могу “оживить” ваш сайт и приложение</p>
-        </div>
-        <div class="main__i-can_js_img"></div>
-      </div>
-      <div class="main__i-can_react">
-        <div class="main__i-can_react_img"></div>
-        <div class="main__i-can_text">
-          <p class="main__i-can_react_desc">Я умею создавать приложения с&nbsp;помощью React</p>
-          <p class="main__i-can_react_add">Благодаря моим навыкам, ваш сайт и&nbsp;приложение будут максимально удобными в использовании</p>
-        </div>
-      </div>
+      <label class="main__i-can-ring">
+        <span class="main__i-can-ring-item main__i-can-ring-item_active"></span>
+        <span class="main__i-can-ring-item"></span>
+        <span class="main__i-can-ring-item"></span>
+      </label>
     </article>
     <article class="main__form">
-      <p class="main__form_head">Есть вопросы?</p>
-      <p class="main__form_img"></p>
-      <p class="main__form_fill">Заполните, пожалуйста, эту форму и&nbsp;я&nbsp;обязательно свяжусь с вами</p>
-      <div class="main__form_text">
-        <input required class="main__form_text_input" type="text" name="Имя и фамилия" value="Имя и фамилия" autocomplete="on">
-        <input class="main__form_text_input" type="text" name="Номер телефона" value="Номер телефона" autocomplete="on">
-        <input class="main__form_text_input" type="text" name="e-mail" value="e-mail" autocomplete="on">
-        <input class="main__form_text_send" type="button" name="Отправить" value="Отправить">
+      <p class="main__form-head">Есть вопросы?</p>
+      <p class="main__form-img"></p>
+      <p class="main__form-fill">Заполните, пожалуйста, эту форму и я обязательно свяжусь с вами</p>
+      <div class="main__form-text">
+        <input required class="main__form-text-input" type="text" name="Имя и фамилия" placeholder="Имя и фамилия" autocomplete="on">
+        <input class="main__form-text-input" type="text" name="Номер телефона" placeholder="Номер телефона" autocomplete="on">
+        <input class="main__form-text-input" type="text" name="e-mail" placeholder="e-mail" autocomplete="on">
+        <input class="main__button-send" type="button" name="Отправить" value="Отправить">
       </div>
     </article>
     <footer class="main__foot">
-      <p class="main__foot_head">Меня можно найти в социальных сетях:</p>
-      <div class="main__foot_contacts">
-        <a class="main__foot_contacts_in" href="#"></a>
-        <a class="main__foot_contacts_inst" href="#"></a>
-        <a class="main__foot_contacts_fb" href="#"></a>
+      <p class="main__foot-head">Меня можно найти&nbsp;в&nbsp;социальных&nbsp;сетях:</p>
+      <div class="main__foot-contacts">
+        <a class="main__foot-contacts-in" href="#"></a>
+        <a class="main__foot-contacts-inst" href="#"></a>
+        <a class="main__foot-contacts-fb" href="#"></a>
       </div>
-      <p class="main__foot_desc">2020  © WebHero School</p>
+      <p class="main__foot-desc">2020  © WebHero School</p>
     </footer>
   </body>
 </html>
