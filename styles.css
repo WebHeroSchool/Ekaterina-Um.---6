@@ -106,7 +106,7 @@
 .main__why-text-money{
   background: no-repeat top 2px left 144px url(img/main_2.png);
 }
-.main__why-text-head-_money{
+.main__why-text-head-money{
   margin: 115px auto 0px 20px;
 }
 .main__why-text-head-money_down{
@@ -125,7 +125,11 @@
 }
 .main__why-text-result-desc{
   font: 500 20px/24px montserrat, arial, helvetica, sans-self;
-  margin: 10px auto 0px -5px;
+  margin: 10px auto 0px -2px;
+  width: 345px;
+}
+.main__why-text-result-desc_up{
+  margin-left: -1px;
 }
 .main__why-text-result-desc_down{
   margin-left: 5px;
@@ -175,10 +179,12 @@
 .main__i-can-write-desc{
   font: 600 30px/37px montserrat, arial, helvetica, sans-self;
   margin: 3px auto 0px 1px;
+  width: 567px;
 }
 .main__i-can-write-add{
   font: 500 20px/24px montserrat, arial, helvetica, sans-self;
   margin-top: 8px;
+  width: 435px;
 }
 .main__i-can-js{
   background: no-repeat right top url(img/can_2.png);
@@ -455,8 +461,8 @@
     align-items: center;
   }
   .main__why-text-individ{
-    background-position: center top;
-    background-size: 55px 55px;
+    background-position: center top 5px;
+    background-size: 55px 45px;
   }
   .main__why-text-head{
     margin-top: 59px;
@@ -470,13 +476,14 @@
     margin-right: -3px;
   }
   .main__why-text-money{
-    background-position: top 4px center;
-    background-size: 55px 55px;
+    background-position: top 5px center;
+    background-size: 55px 52px;
     margin-top: 30px;
   }
   .main__why-text-head-money{
     margin-top: 63px;
-    margin-right: 25px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .main__why-text-head-money_down{
     margin-right: 2px;
@@ -498,6 +505,12 @@
   }
   .main__why-text-result-desc{
     margin-top: 4px;
+    width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .main__why-text-result-desc_up{
+    word-spacing: 9px;
   }
   .main__button-cons{
     font-size: 16px;
@@ -528,10 +541,12 @@
   }
   .main__i-can-write-desc{
     margin-top: 187px;
+    width: 227px;
   }
   .main__i-can-write-add{
     font-size: 14px;
     line-height: 17px;
+    width: 182px;
   }
   .main__i-can-ring{
     display: flex;
